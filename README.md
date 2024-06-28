@@ -16,13 +16,14 @@ cd <project-directory>
 npm install
 ```
 ### Available Scripts
+
 1. Run Hardhat Commands
 Explore available Hardhat commands:
 ```bash
 npx hardhat help
 ```
 
-To generate gas reports during tests:
+2. To generate gas reports during tests:
 ```bash
 REPORT_GAS=true npx hardhat test
 ```
